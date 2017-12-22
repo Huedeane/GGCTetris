@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class game : MonoBehaviour {
 
+    public static int gridwidth = 10;
+    public static int gridhight = 20;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +16,14 @@ public class game : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public bool CheckIsInsideGrid(Vector2 pos) {
+
+        return ((int)pos.x >= 0 && (int)pos.x < gridwidth && (int)pos.y >= 0);
+    }
+    public Vector2 Round (Vector2 pos)
+    {
+        return new Vector2 (Mathf.Round(pos.x), (Mathf.Round(pos.y)));
+    }
 }
+
