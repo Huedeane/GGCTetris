@@ -19,8 +19,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4761916914521580}
+  - component: {fileID: 114500495855866526}
   m_Layer: 0
-  m_Name: Square_shape
+  m_Name: Shape_Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,6 +160,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114500495855866526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165883945186698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6bdb16101023c488b3c36a9777061f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212035348177841226
 SpriteRenderer:
   m_ObjectHideFlags: 1
