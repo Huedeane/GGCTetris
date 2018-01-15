@@ -600,12 +600,13 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: e4c80046-e49f-4d83-ad6d-e2aea41ea44c
+  cloudProjectId: 34432f43-fc09-449b-bca8-21fea554047b
   projectName: Tetris
-  organizationId: valter-wulfric-sherbune-jr
+  organizationId: merchant151
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

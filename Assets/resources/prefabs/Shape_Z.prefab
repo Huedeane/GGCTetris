@@ -67,7 +67,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4111115719875012}
-  - component: {fileID: 114944030527383734}
+  - component: {fileID: 114000582338354540}
   m_Layer: 0
   m_Name: Shape_Z
   m_TagString: Untagged
@@ -160,7 +160,7 @@ Transform:
   m_Father: {fileID: 4111115719875012}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114944030527383734
+--- !u!114 &114000582338354540
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -168,9 +168,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1682980183201552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df6bdb16101023c488b3c36a9777061f, type: 3}
+  m_Script: {fileID: 11500000, guid: c2e35c6da6576484582c7a68258fcda9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fallspeed: 1
+  allowRotation: 1
+  limitRotation: 0
 --- !u!212 &212028933427224704
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -435,6 +435,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4740224073977596}
+  - component: {fileID: 114055372772973770}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -1599,6 +1600,17 @@ Transform:
   m_Father: {fileID: 4740224073977596}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114055372772973770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1351534748620672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7a69401a1b7e7b4aa655630fccb2554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212011474158680680
 SpriteRenderer:
   m_ObjectHideFlags: 1
